@@ -1,0 +1,11 @@
+language: cpp
+sudo: required
+dist: trusty
+
+os: linux
+
+script:
+- cmake -H. -B_builds
+- cmake --build _builds/
+tests
+./_build/tests -s 

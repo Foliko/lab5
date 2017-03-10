@@ -1,6 +1,6 @@
 #include"catch.hpp"
 
-unsigned int Factorial( unsigned int number )
+unsigned int Factorial( unsigned int number );
 
 TEST_CASE( "Factorials are computed", "[foo]" ) {
     REQUIRE( Factorial(1) == 1 );

@@ -7,5 +7,5 @@ os: linux
 script:
 - cmake -H. -B_builds
 - cmake --build _builds/
-tests
+tests:
 - cmake ./_build/tests -s 

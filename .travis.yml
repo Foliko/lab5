@@ -8,4 +8,4 @@ script:
 - cmake -H. -B_builds
 - cmake --build _builds/
 tests
-./_build/tests -s 
+- cmake ./_build/tests -s 
